@@ -18,6 +18,8 @@ local actionFuncref = {
     drop = {mode = 'n', module = 'qfwin.handler', funcref = [[open(true, 'drop')]]},
     split = {mode = 'n', module = 'qfwin.handler', funcref = [[open(true, 'split')]]},
     vsplit = {mode = 'n', module = 'qfwin.handler', funcref = [[open(true, 'vsplit')]]},
+    splitc = {mode = 'n', module = 'qfwin.handler', funcref = [[open(false, 'split')]]},
+    vsplitc = {mode = 'n', module = 'qfwin.handler', funcref = [[open(false, 'vsplit')]]},
     tab = {mode = 'n', module = 'qfwin.handler', funcref = 'tabedit(false)'},
     tabb = {mode = 'n', module = 'qfwin.handler', funcref = 'tabedit(true)'},
     tabc = {mode = 'n', module = 'qfwin.handler', funcref = [[open(true, 'tabedit')]]},
